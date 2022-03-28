@@ -1,0 +1,185 @@
+.show {
+  z-index: 2222;
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.profile_container {
+  width: 90%;
+  margin: 2% 5%;
+}
+
+.profile_info {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.profile_info .profile_picture {
+  width: 50%;
+  margin: 0% 25%;
+}
+
+.profile_picture img {
+  width: 20%;
+  border-radius: 100px;
+}
+
+.student_bio {
+  text-align: center;
+}
+:root {
+  --green: #27d6ae;
+  --grey: #f1f0f0;
+  --red: rgba(170, 3, 3, 0.925);
+}
+
+.profile_head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile_arrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile_arrow .arrow_icon {
+  font-size: 20px;
+  margin-top: 4%;
+  margin-right: 35%;
+}
+
+.sign_icon {
+  font-size: 20px;
+  margin-top: 0.7%;
+}
+
+.profile_arrow h2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile_info h5 {
+  font-size: 12px;
+  margin-top: 0%;
+  color: var(--green);
+}
+
+.profile_info h2 {
+  font-size: 20px;
+  margin-top: -0.5%;
+  text-transform: capitalize;
+}
+
+.profile_info h4 {
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: -0.8%;
+}
+
+.profile_info button {
+  width: 15%;
+  margin-top: 2%;
+  background: var(--green);
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+.student_bio {
+  text-align: center;
+  border: 1px solid rgba(243, 217, 221, 0.411);
+  padding: 1% 1%;
+  margin-top: 5%;
+  border-radius: 40px;
+  background-color: rgba(243, 217, 221, 0.411);
+  color: black;
+  width: 30%;
+  margin: 2% 35%;
+}
+.profile_connect {
+  width: 100%;
+  z-index: 111111;
+  margin-top: 18%;
+}
+
+.student_bio p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logout {
+  width: 100%;
+  border: 2px solid var(--green);
+  padding: 3% 5.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  border-radius: 10px;
+}
+
+.delete {
+  width: 100%;
+  border: 2px solid var(--red);
+  padding: 3% 5.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.logout span {
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+}
+
+.logout .sign_icon {
+  color: grey;
+}
+
+.delete span {
+  font-size: 14px;
+  font-weight: bolder;
+  color: var(--red);
+}
+
+.delete .trash_icon {
+  color: var(--red);
+}
+
+.btn_logout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trigger_btns {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 3% 37.5%;
+}
+
+.logoo h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logoo {
+  margin-top: 8%;
+}

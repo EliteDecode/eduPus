@@ -1,0 +1,39 @@
+/* universal */
+
+:root {
+  --green: #27d6ae;
+  --grey: #f1f0f0;
+}
+
+.show {
+  z-index: 2222;
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+#results {
+  width: 70%;
+  margin: 3% 15%;
+}
+
+.student_bg img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+}

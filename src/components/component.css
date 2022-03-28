@@ -1,0 +1,310 @@
+/* universal */
+
+:root {
+  --green: #27d6ae;
+  --grey: #f1f0f0;
+}
+
+.show {
+  z-index: 2222;
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+/* header */
+.header_container {
+  width: 90%;
+  margin: 0% 5%;
+}
+
+.header {
+  padding: 1% 0%;
+}
+
+.profile_pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.profile_pic img {
+  width: 15%;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 1%;
+}
+
+.styled_logo {
+  color: var(--green);
+}
+
+.logo h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6.5%;
+  margin-left: 38%;
+}
+
+.logo h5 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6%;
+  margin-left: 70%;
+}
+
+.shuffle {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
+
+.shuffle .icon {
+  margin-top: 25%;
+  font-size: 20px;
+}
+
+.profile_pic .student_info {
+  left: 25%;
+  position: relative;
+  top: -13%;
+}
+.profile_pic .student_info h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 12%;
+}
+
+.student_info h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 12%;
+}
+.student_info h5 {
+  font-size: 13px;
+  margin-top: -4%;
+}
+.student_info h6 {
+  font-size: 12px;
+  margin-top: -4%;
+  color: var(--green);
+}
+
+.profile_pic .student_info h5 {
+  font-size: 13px;
+  margin-top: -4%;
+}
+
+.profile_pic .student_info h6 {
+  font-size: 12px;
+  margin-top: -4%;
+  color: var(--green);
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+  .header {
+    padding: 5% 0%;
+    height: 100px;
+  }
+  .connections {
+    display: none;
+  }
+  .logo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 0%;
+  }
+
+  .profile_pic {
+    width: 30% !important;
+  }
+
+  .profile_pic .student_info {
+    display: none;
+  }
+
+  .profile_pic img {
+    width: 60%;
+  }
+
+  .shuffle .icon {
+    margin-top: -10% !important;
+    font-size: 20px;
+  }
+  .search_tab {
+    width: 100% !important;
+    margin: 0% !important;
+  }
+  .filter {
+    width: 80% !important;
+    margin: 7% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 100% !important;
+    margin: 0% !important;
+  }
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
+  }
+}
+/* end header */
+
+/* filter section */
+
+.filter {
+  width: 40%;
+  margin: 0% 30%;
+  position: relative;
+}
+
+.search_tab {
+  width: 54%;
+  margin: 0% 23%;
+}
+
+.search_tab input {
+  border: none;
+  padding: 4.5% 5%;
+  border-radius: 10px;
+  background-color: var(--grey);
+  opacity: 0.7;
+}
+
+.filter_inputs {
+  border: 2px solid var(--green);
+  height: 400px;
+  width: 65%;
+  margin: -10% 17.5% 0% 17.5%;
+  border-radius: 15px;
+  position: absolute;
+  background-color: #fff;
+  z-index: 111111 !important;
+}
+
+.filter_inputs h5 {
+  text-align: center;
+  margin: 5%;
+}
+
+.filter_inputs .inputs {
+  width: 85%;
+  margin: 0% 7.5% 3% 7.5%;
+}
+
+.filter_inputs .button {
+  margin-top: 7%;
+}
+
+.filter_inputs .button input {
+  padding: 3% 0%;
+  background-color: var(--green);
+  color: #fff;
+  font-weight: 600;
+}
+
+.filter_inputs .inputs label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.filter_inputs .inputs select {
+  width: 100%;
+  padding: 3.5% 7%;
+  outline: none;
+  border-radius: 10px;
+  opacity: 0.7;
+  text-transform: capitalize;
+  font-size: 14px;
+  border: 2px solid var(--green);
+}
+/* end filter section */
+
+/* search results */
+
+.student_container {
+  width: 70%;
+  margin: 3% 15%;
+}
+
+.student_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20% !important;
+}
+
+.student_img img {
+  width: 100%;
+  border-radius: 100px;
+  margin-top: 0%;
+}
+
+.results .student_info {
+  margin-left: -2%;
+}
+
+.student_info h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.student_info h5 {
+  font-size: 11px;
+  margin-top: -4%;
+}
+.student_info h6 {
+  font-size: 11px;
+  margin-top: -4%;
+  color: var(--green);
+}
+
+.results .button {
+  margin-top: 7%;
+}
+
+.results .button input {
+  border-radius: 20px;
+  background-color: var(--green);
+  color: #fff;
+  border: none;
+  padding: 6% 0%;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 15%;
+}
+
+.results_wrap {
+  border: 1px solid var(--grey);
+  width: 100%;
+  /* margin: 0% 10% 5% 10%; */
+  padding: 1% 0%;
+  border-radius: 10px;
+  background-color: var(--grey);
+}

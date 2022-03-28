@@ -1,0 +1,98 @@
+:root {
+  --green: #27d6ae;
+  --grey: #f1f0f0;
+}
+.show {
+  z-index: 2222;
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.signUp_modal {
+  width: 40%;
+  margin: -37% 30%;
+  position: relative;
+  padding: 3% 0%;
+}
+
+.signin_inputs_title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.icon {
+  margin-top: 1%;
+  color: var(--green);
+}
+
+.signUp_modal form {
+  border: 2px solid var(--green);
+  padding: 2% 4%;
+  width: 65%;
+  margin: 0% 17.5%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.signUp_modal form .filter {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7%;
+}
+
+.signin_inputs label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.signin_inputs input {
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  padding: 2.5% 5%;
+  width: 100%;
+  outline: none;
+  margin-bottom: 4%;
+}
+
+.signin_inputs select {
+  width: 100%;
+  padding: 2.5% 5%;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 4%;
+}
+
+.student_inputs button {
+  width: 100%;
+  padding: 3% 5%;
+  border: 2px solid var(--green);
+  margin-top: 10%;
+  background-color: var(--green);
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.registered {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.registered h3 {
+  font-size: 13px;
+  text-align: center;
+}

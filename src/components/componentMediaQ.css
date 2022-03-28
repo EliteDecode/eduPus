@@ -1,0 +1,1558 @@
+/*----------------------------- 0px and 277px------------------------- */
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 277px) {
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+  .results .button input {
+    margin-top: 5%;
+    font-size: 9px !important;
+  }
+
+  .results .student_info h5 {
+    font-size: 7px !important;
+  }
+  .results .student_info h4 {
+    font-size: 8px !important;
+  }
+  .results .student_info h6 {
+    font-size: 7px !important;
+  }
+  .logo h3 {
+    margin-top: 8%;
+    font-size: 13px !important;
+  }
+  .profile_pic img {
+    width: 45%;
+  }
+  .shuffle .icon {
+    margin-top: -12.5% !important;
+    font-size: 18px;
+    margin-right: 4%;
+  }
+  .filter {
+    width: 80% !important;
+    margin: -5% 10% 5% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 100% !important;
+    margin: 0% !important;
+    height: 320px !important;
+  }
+
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
+  }
+
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 100% !important;
+    position: absolute !important;
+    margin: -145% 0% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90% !important;
+    margin: 0% 5% !important;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .signUp_modal form .filter {
+    margin-top: 5% !important;
+  }
+
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 95% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 40% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -2.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -2.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 278px and 335px------------------------- */
+
+@media only screen and (min-device-width: 278px) and (max-device-width: 335px) {
+  .results .button input {
+    margin-top: 5%;
+    font-size: 10px !important;
+  }
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+
+  .results .student_info h5 {
+    font-size: 8px !important;
+  }
+  .results .student_info h4 {
+    font-size: 10px !important;
+  }
+  .results .student_info h6 {
+    font-size: 8px !important;
+  }
+  .logo h3 {
+    margin-top: 5%;
+    font-size: 16px !important;
+  }
+  .profile_pic img {
+    width: 45%;
+  }
+  .shuffle .icon {
+    margin-top: -11% !important;
+    font-size: 18px;
+    margin-right: 4%;
+  }
+  .filter {
+    width: 80% !important;
+    margin: -5% 10% 5% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 100% !important;
+    margin: 0% !important;
+    height: 320px !important;
+  }
+
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
+  }
+
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 100% !important;
+    position: absolute !important;
+    margin: -145% 0% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .signUp_modal form .filter {
+    margin-top: 5% !important;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 95% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 40% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -2.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -2.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 336px and 363px------------------------- */
+
+@media only screen and (min-device-width: 336px) and (max-device-width: 363px) {
+  .results .button input {
+    margin-top: 5%;
+    font-size: 11px !important;
+  }
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 100% !important;
+    margin: 3% 0% !important;
+  }
+  .results .student_info h5 {
+    font-size: 10px !important;
+  }
+  .results .student_info h6 {
+    font-size: 10px !important;
+  }
+
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 100% !important;
+    position: absolute !important;
+    margin: -145% 0% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 80% !important;
+    margin: 0% 10% !important;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .signUp_modal form .filter {
+    margin-top: 5% !important;
+  }
+  .shuffle .icon {
+    margin-top: -12% !important;
+    font-size: 25px;
+    margin-right: 5%;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 95% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 15% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -2.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -2.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 364px and 480px------------------------- */
+@media only screen and (min-device-width: 364px) and (max-device-width: 480px) {
+  .header {
+    padding: 3% 0%;
+    height: 100px;
+  }
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+  .connections {
+    display: none;
+  }
+  .logo h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+
+  .profile_pic {
+    width: 30% !important;
+  }
+
+  .profile_pic .student_info {
+    display: none;
+  }
+
+  .profile_pic img {
+    width: 35%;
+  }
+
+  .shuffle .icon {
+    margin-top: -9.5% !important;
+    font-size: 20px;
+    margin-right: 5%;
+  }
+  .search_tab {
+    width: 80% !important;
+    margin: 0% 10% !important;
+  }
+  .filter {
+    width: 80% !important;
+    margin: 4% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 98% !important;
+    margin: 0% 1% !important;
+  }
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .results .button input {
+    margin-top: -3%;
+    font-size: 9px !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
+  }
+
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 100% !important;
+    position: absolute !important;
+    margin: -138% 0% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 80% !important;
+    margin: 0% 10% !important;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 85% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 9% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 481px and 575px------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 575px) {
+  .header {
+    padding: 3% 0% !important;
+    height: 100px;
+  }
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+  .connections {
+    display: none;
+  }
+  .logo h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 0%;
+  }
+
+  .profile_pic {
+    width: 30% !important;
+  }
+
+  .profile_pic .student_info {
+    display: none;
+  }
+
+  .profile_pic img {
+    width: 35%;
+  }
+
+  .shuffle .icon {
+    margin-top: -6% !important;
+    font-size: 25px;
+    margin-right: 5%;
+  }
+  .search_tab {
+    width: 80% !important;
+    margin: 0% 10% !important;
+  }
+  .filter {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 80% !important;
+    margin: 0% 10% !important;
+  }
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .results .button input {
+    margin-top: -3%;
+    font-size: 9px !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
+  }
+
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 100% !important;
+    position: absolute !important;
+    margin: -105% 0% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 65% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 9% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 575px and 714px------------------------- */
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 714px) {
+  /* header */
+  .header_container {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+
+  .results .button input {
+    margin-top: -2%;
+    font-size: 9px !important;
+  }
+
+  .header {
+    padding: 1% 0%;
+  }
+
+  .profile_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .profile_pic img {
+    width: 30% !important;
+  }
+
+  .styled_logo {
+    color: var(--green);
+  }
+
+  .logo h3 {
+    font-size: 15px !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 48%;
+  }
+
+  .logo h5 {
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10% !important;
+    margin-left: 30%;
+  }
+
+  .shuffle .icon {
+    margin-top: 7%;
+    font-size: 20px;
+  }
+
+  .profile_pic .student_info {
+    left: 40% !important;
+    position: relative;
+    top: -9% !important;
+  }
+  .profile_pic .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+
+  .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+  .student_info h5 {
+    font-size: 9px;
+    margin-top: -4%;
+  }
+  .student_info h6 {
+    font-size: 8px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  .profile_pic .student_info h5 {
+    font-size: 9px;
+    margin-top: -4%;
+  }
+
+  .profile_pic .student_info h6 {
+    font-size: 7px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  /* end header */
+
+  .filter {
+    width: 80% !important;
+    margin: 2% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 65% !important;
+    margin: 0% 17.5% !important;
+  }
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 80% !important;
+    position: absolute !important;
+    margin: -70% 10% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 35% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 3% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 575px and 714px------------------------- */
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 767px) {
+  /* header */
+  .header_container {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+
+  .results .button input {
+    margin-top: -2%;
+    font-size: 9px !important;
+  }
+
+  .header {
+    padding: 1% 0%;
+  }
+
+  .profile_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .profile_pic img {
+    width: 30% !important;
+  }
+
+  .styled_logo {
+    color: var(--green);
+  }
+
+  .logo h3 {
+    font-size: 15px !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 100%;
+  }
+
+  .logo h5 {
+    display: none;
+  }
+
+  .shuffle .icon {
+    margin-top: 7%;
+    font-size: 20px;
+  }
+
+  .profile_pic .student_info {
+    left: 40% !important;
+    position: relative;
+    top: -9% !important;
+  }
+  .profile_pic .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+
+  .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+  .student_info h5 {
+    font-size: 9px;
+    margin-top: -4%;
+  }
+  .student_info h6 {
+    font-size: 8px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  .profile_pic .student_info h5 {
+    font-size: 9px;
+    margin-top: -4%;
+  }
+
+  .profile_pic .student_info h6 {
+    font-size: 7px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  /* end header */
+
+  .filter {
+    width: 80% !important;
+    margin: 2% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 65% !important;
+    margin: 0% 17.5% !important;
+  }
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 80% !important;
+    position: absolute !important;
+    margin: -70% 10% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 35% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 2% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 8px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 15px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 9px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 60% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 9px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 768px and 949px------------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 949px) {
+  /* header */
+  .header_container {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+
+  .results .button input {
+    margin-top: -2%;
+    font-size: 9px !important;
+  }
+
+  .header {
+    padding: 1% 0%;
+  }
+
+  .profile_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .profile_pic img {
+    width: 20% !important;
+  }
+
+  .styled_logo {
+    color: var(--green);
+  }
+
+  .logo h3 {
+    font-size: 17px !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 48%;
+  }
+
+  .logo h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7% !important;
+    margin-left: 30%;
+  }
+
+  .shuffle .icon {
+    margin-top: 30%;
+    font-size: 17px;
+  }
+
+  .profile_pic .student_info {
+    left: 25% !important;
+    position: relative;
+    top: -14% !important;
+  }
+  .profile_pic .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+
+  .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+  .student_info h5 {
+    font-size: 12px;
+    margin-top: -4%;
+  }
+  .student_info h6 {
+    font-size: 12px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  .profile_pic .student_info h5 {
+    font-size: 12px;
+    margin-top: -4%;
+  }
+
+  .profile_pic .student_info h6 {
+    font-size: 9px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  /* end header */
+
+  .filter {
+    width: 80% !important;
+    margin: 2% 10% !important;
+  }
+
+  .filter_inputs {
+    height: 450px !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 65% !important;
+    margin: 0% 17.5% !important;
+  }
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 80% !important;
+    position: absolute !important;
+    margin: -70% 10% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 40% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 2% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 11px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 17px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 12px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 50% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+}
+
+/*----------------------------- 949px and 1199------------------------- */
+
+@media only screen and (min-device-width: 949px) and (max-device-width: 1199px) {
+  /* header */
+  .header_container {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .student_bg {
+    display: none;
+  }
+  #results {
+    width: 80% !important;
+    margin: 3% 10% !important;
+  }
+
+  .results .button input {
+    margin-top: -2%;
+    font-size: 9px !important;
+  }
+
+  .header {
+    padding: 1% 0%;
+  }
+
+  .profile_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .profile_pic img {
+    width: 20% !important;
+  }
+
+  .styled_logo {
+    color: var(--green);
+  }
+
+  .logo h3 {
+    font-size: 17px !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6.5%;
+    margin-left: 48%;
+  }
+
+  .logo h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7% !important;
+    margin-left: 30%;
+  }
+
+  .shuffle .icon {
+    margin-top: 30%;
+    font-size: 17px;
+  }
+
+  .profile_pic .student_info {
+    left: 25% !important;
+    position: relative;
+    top: -14% !important;
+  }
+  .profile_pic .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+
+  .student_info h4 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12%;
+  }
+  .student_info h5 {
+    font-size: 12px;
+    margin-top: -4%;
+  }
+  .student_info h6 {
+    font-size: 12px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  .profile_pic .student_info h5 {
+    font-size: 12px;
+    margin-top: -4%;
+  }
+
+  .profile_pic .student_info h6 {
+    font-size: 12px;
+    margin-top: -4%;
+    color: var(--green);
+  }
+
+  /* end header */
+
+  .filter {
+    width: 80% !important;
+    margin: 2% 10% !important;
+  }
+
+  .filter_inputs {
+    height: 530px !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 65% !important;
+    margin: 0% 17.5% !important;
+  }
+  /* //signuppppp */
+
+  .signUp_modal {
+    width: 80% !important;
+    position: absolute !important;
+    margin: -70% 10% !important;
+  }
+  .signUp_modal form {
+    border: 2px solid var(--green);
+    padding: 2% 4%;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  /* //profile */
+
+  .trigger_btns {
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+  .profile_connect {
+    width: 100% !important;
+    z-index: 111111;
+    margin-top: 38% !important;
+    position: absolute !important;
+  }
+
+  .profile_info {
+    margin-top: 3% !important;
+  }
+  .profile_head {
+    padding-top: 4%;
+  }
+
+  .profile_arrow h2 {
+    font-size: 15px !important;
+  }
+  .profile_arrow .arrow_icon {
+    font-size: 15px !important;
+  }
+  .sign_icon {
+    font-size: 15px !important;
+    margin-top: 0.7%;
+  }
+
+  .profile_picture img {
+    width: 40% !important;
+  }
+
+  .profile_info h5 {
+    font-size: 11px !important;
+  }
+
+  .profile_info h2 {
+    font-size: 17px !important;
+    margin-top: -0.5% !important;
+  }
+
+  .profile_info h4 {
+    font-weight: 600;
+    font-size: 12px !important;
+    margin-top: -0.8% !important;
+  }
+
+  .profile_info button {
+    width: 50% !important;
+    margin-top: 2%;
+    background: var(--green);
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-size: 14px;
+  }
+
+  .student_bio {
+    width: 80% !important;
+    margin: 5% 10% !important;
+    padding: 3% 5% !important;
+  }
+  .student_bio p {
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+}
