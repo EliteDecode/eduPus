@@ -37,7 +37,7 @@ const Header = () => {
     <div className="header">
       <div className="header_container">
         <div className="row">
-          <div className="profile_pic col-md-4 col-lg-4 col-xl-4 col-sm-3 xs-4">
+          <div className="profile_pic col-md-4 col-lg-4 col-xl-4 col-sm-3 ">
             <img src={user} alt="user image" onClick={pushProfile} />
             <div className="student_info">
               <h4>Jonathan Doe</h4>
@@ -45,18 +45,18 @@ const Header = () => {
               <h6>Physical Science, Computer Science</h6>
             </div>
           </div>
-          <div className="logo col-md-3 col-lg-3 col-xl-3 col-sm-3 xs-4">
+          <div className="logo col-md-3 col-lg-3 col-xl-3 col-sm-3 ">
             <h3>
               edu<span className="styled_logo">PUS.</span>
             </h3>
           </div>
-          <div className="logo connections col-md-4 col-lg-4 col-xl-4 xs-4 col-sm-3">
+          <div className="logo connections col-md-4 col-lg-4 col-xl-4  col-sm-3">
             <h5>
               <span className="styled_logo">234 connections</span>
             </h5>
           </div>
 
-          <div className="shuffle col-md-1 col-lg-1 col-xl-1 col-sm-3 xs-4">
+          <div className="shuffle col-md-1 col-lg-1 col-xl-1 col-sm-3 ">
             <FontAwesomeIcon
               icon={faShuffle}
               className="icon"

@@ -2,7 +2,13 @@
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 277px) {
   .student_bg {
-    display: none;
+    display: none !important;
+  }
+  .connections {
+    display: none !important;
+  }
+  .profile_pic .student_info {
+    display: none !important;
   }
   #results {
     width: 80% !important;
@@ -25,18 +31,32 @@
   .logo h3 {
     margin-top: 8%;
     font-size: 13px !important;
+    margin-left: -3% !important;
   }
   .profile_pic img {
-    width: 45%;
+    width: 15% !important;
   }
   .shuffle .icon {
-    margin-top: -12.5% !important;
-    font-size: 18px;
+    margin-top: -10.5% !important;
+    font-size: 13px;
     margin-right: 4%;
   }
   .filter {
     width: 80% !important;
     margin: -5% 10% 5% 10% !important;
+  }
+
+  .student_img {
+    width: 30% !important;
+  }
+
+  .student_info {
+    margin-left: -7% !important;
+  }
+
+  .search_tab {
+    margin: 15% 0% 10% 0% !important;
+    width: 100% !important;
   }
   .search_tab input {
     padding: 3% 5% !important;
@@ -162,6 +182,16 @@
     margin-top: 5%;
     font-size: 10px !important;
   }
+  .connections {
+    display: none !important;
+  }
+  .profile_pic .student_info {
+    display: none !important;
+  }
+  .profile_pic img {
+    width: 15% !important;
+  }
+
   .student_bg {
     display: none;
   }
@@ -180,15 +210,16 @@
     font-size: 8px !important;
   }
   .logo h3 {
-    margin-top: 5%;
+    margin-top: 5% !important;
+    margin-left: -3% !important;
     font-size: 16px !important;
   }
   .profile_pic img {
     width: 45%;
   }
   .shuffle .icon {
-    margin-top: -11% !important;
-    font-size: 18px;
+    margin-top: -7% !important;
+    font-size: 15px;
     margin-right: 4%;
   }
   .filter {
@@ -202,6 +233,11 @@
     width: 100% !important;
     margin: 0% !important;
     height: 320px !important;
+  }
+
+  .search_tab {
+    width: 80%;
+    margin: 15% 10% 0% 10%;
   }
 
   .student_container {
@@ -230,8 +266,8 @@
   .signUp_modal form {
     border: 2px solid var(--green);
     padding: 2% 4%;
-    width: 90%;
-    margin: 0% 5%;
+    width: 80% !important;
+    margin: 0% 10% !important;
     border-radius: 10px;
     background-color: #fff;
   }
@@ -250,7 +286,7 @@
   .profile_connect {
     width: 100% !important;
     z-index: 111111;
-    margin-top: 95% !important;
+    margin-top: 80% !important;
     position: absolute !important;
   }
 
@@ -316,20 +352,76 @@
 @media only screen and (min-device-width: 336px) and (max-device-width: 363px) {
   .results .button input {
     margin-top: 5%;
-    font-size: 11px !important;
+    font-size: 10px !important;
   }
+  .connections {
+    display: none !important;
+  }
+  .profile_pic .student_info {
+    display: none !important;
+  }
+  .profile_pic img {
+    width: 15% !important;
+  }
+
   .student_bg {
     display: none;
   }
   #results {
-    width: 100% !important;
-    margin: 3% 0% !important;
+    width: 80% !important;
+    margin: 3% 10% !important;
   }
+
   .results .student_info h5 {
+    font-size: 8px !important;
+  }
+  .results .student_info h4 {
     font-size: 10px !important;
   }
   .results .student_info h6 {
-    font-size: 10px !important;
+    font-size: 8px !important;
+  }
+  .logo h3 {
+    margin-top: 5% !important;
+    margin-left: -3% !important;
+    font-size: 16px !important;
+  }
+  .profile_pic img {
+    width: 45%;
+  }
+
+  .filter {
+    width: 80% !important;
+    margin: -5% 10% 5% 10% !important;
+  }
+  .search_tab input {
+    padding: 3% 5% !important;
+  }
+  .filter_inputs {
+    width: 100% !important;
+    margin: 0% !important;
+    height: 350px !important;
+  }
+
+  .search_tab {
+    width: 80%;
+    margin: 15% 10% 0% 10%;
+  }
+
+  .student_container {
+    width: 90% !important;
+    margin: 3% 5% !important;
+  }
+
+  .results {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+
+  .results_wrap {
+    width: 100% !important;
+    padding: 3% 0% !important;
+    margin: 0% 0% 3% 0% !important;
   }
 
   /* //signuppppp */
@@ -337,7 +429,7 @@
   .signUp_modal {
     width: 100% !important;
     position: absolute !important;
-    margin: -145% 0% !important;
+    margin: -135% 0% !important;
   }
   .signUp_modal form {
     border: 2px solid var(--green);
@@ -352,8 +444,8 @@
     margin-top: 5% !important;
   }
   .shuffle .icon {
-    margin-top: -12% !important;
-    font-size: 25px;
+    margin-top: -8% !important;
+    font-size: 20px;
     margin-right: 5%;
   }
   /* //profile */

@@ -110,69 +110,6 @@
   color: var(--green);
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
-  .header {
-    padding: 5% 0%;
-    height: 100px;
-  }
-  .connections {
-    display: none;
-  }
-  .logo h3 {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 8%;
-    margin-left: 0%;
-  }
-
-  .profile_pic {
-    width: 30% !important;
-  }
-
-  .profile_pic .student_info {
-    display: none;
-  }
-
-  .profile_pic img {
-    width: 60%;
-  }
-
-  .shuffle .icon {
-    margin-top: -10% !important;
-    font-size: 20px;
-  }
-  .search_tab {
-    width: 100% !important;
-    margin: 0% !important;
-  }
-  .filter {
-    width: 80% !important;
-    margin: 7% 10% !important;
-  }
-  .search_tab input {
-    padding: 3% 5% !important;
-  }
-  .filter_inputs {
-    width: 100% !important;
-    margin: 0% !important;
-  }
-  .student_container {
-    width: 90% !important;
-    margin: 3% 5% !important;
-  }
-
-  .results {
-    width: 100% !important;
-    padding: 0% !important;
-  }
-
-  .results_wrap {
-    width: 100% !important;
-    padding: 3% 0% !important;
-    margin: 0% 0% 3% 0% !important;
-  }
-}
 /* end header */
 
 /* filter section */
